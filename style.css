@@ -1,0 +1,52 @@
+ .Origami{
+    border: radius 20px;
+    display:flex;
+    background-color: orange;
+    padding:30px;
+    margin:25px;
+    font-family:fantasy;
+   justify-content: space-between;
+} 
+body{
+    margin:0px;
+    background-color:thistle
+}
+.Snake{
+    background-color: aqua;
+    font-family:fantasy;
+   justify-content: space-between;
+   padding:30px;
+   margin:25px;
+}
+.Snake:hover{
+    transform: scale(1.2);
+}
+.Owls{
+    background-color: aqua;
+    font-family:fantasy;
+   justify-content: space-between;
+   padding:30px;
+   margin:25px;
+}
+.Owls:hover{
+    transform: scale(1.2);
+}
+.Dragon{
+    background-color: aqua;
+    font-family:fantasy;
+   justify-content: space-between;
+   padding:30px;
+   margin:25px;
+}
+.Dragon:hover{
+    transform: scale(1.2);
+}
+.Item{
+    justify-content: space-between;
+   }
+   a:any-link{
+       color:blue
+   }
+   a:visited{
+color:white
+   }
