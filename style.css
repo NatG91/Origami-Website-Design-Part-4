@@ -3,9 +3,9 @@
     display:flex;
     background-color: orange;
     padding:30px;
-    margin:25px;
+    margin:20px;
     font-family:fantasy;
-   justify-content: space-between;
+   justify-content: space-evenly;
 } 
 body{
     margin:0px;
@@ -14,9 +14,10 @@ body{
 .Snake{
     background-color: aqua;
     font-family:fantasy;
-   justify-content: space-between;
    padding:30px;
    margin:25px;
+   left:50px;
+   position: relative
 }
 .Snake:hover{
     transform: scale(1.2);
@@ -24,9 +25,9 @@ body{
 .Owls{
     background-color: aqua;
     font-family:fantasy;
-   justify-content: space-between;
-   padding:30px;
-   margin:25px;
+    padding:30px;
+   margin:25px; 
+   position: relative
 }
 .Owls:hover{
     transform: scale(1.2);
@@ -34,19 +35,47 @@ body{
 .Dragon{
     background-color: aqua;
     font-family:fantasy;
-   justify-content: space-between;
-   padding:30px;
-   margin:25px;
+    padding:30px;
+   margin:25px; 
+   left:50px;
+   position: absolute
 }
 .Dragon:hover{
     transform: scale(1.2);
 }
 .Item{
-    justify-content: space-between;
+    position: absolute
    }
    a:any-link{
        color:blue
    }
    a:visited{
-color:white
+color: white
+   }
+   .Item p{
+       position: relative;
+       opacity:0;
+       top: 20%;
+       left:40%;
+       transform: translate(-50%,-50%)
+   }
+   .Item:hover p{
+    opacity:1
+}
+.Item:hover ul{
+    opacity:1
+    
+}
+.Item:hover img{
+    opacity:0.5
+}
+   a{
+       text-decoration: none;
+   }
+   .Item ul{    
+    position: absolute;
+    opacity:0;
+    top: 20%;
+    left:40%;
+    transform: translate(-50%,-50%)
    }
