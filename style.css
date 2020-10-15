@@ -44,7 +44,7 @@ body{
     transform: scale(1.2);
 }
 .Item{
-    position: absolute
+    position: relative
    }
    a:any-link{
        color:blue
@@ -53,7 +53,7 @@ body{
 color: white
    }
    .Item p{
-       position: relative;
+       position: absolute;
        opacity:0;
        top: 20%;
        left:40%;
