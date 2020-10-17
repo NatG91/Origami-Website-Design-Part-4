@@ -17,7 +17,6 @@ body{
    padding:30px;
    margin:25px;
    left:50px;
-   position: relative
 }
 .Snake:hover{
     transform: scale(1.2);
@@ -27,7 +26,6 @@ body{
     font-family:fantasy;
     padding:30px;
    margin:25px; 
-   position: relative
 }
 .Owls:hover{
     transform: scale(1.2);
@@ -38,7 +36,6 @@ body{
     padding:30px;
    margin:25px; 
    left:50px;
-   position: absolute
 }
 .Dragon:hover{
     transform: scale(1.2);
@@ -55,7 +52,7 @@ color: white
    .Item p{
        position: absolute;
        opacity:0;
-       top: 20%;
+       top: 10%;
        left:40%;
        transform: translate(-50%,-50%)
    }
@@ -75,7 +72,7 @@ color: white
    .Item ul{    
     position: absolute;
     opacity:0;
-    top: 20%;
+    top: 30%;
     left:40%;
     transform: translate(-50%,-50%)
    }
